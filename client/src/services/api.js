@@ -4,11 +4,14 @@ import axios from "axios";
 // AXIOS API INSTANCE
 // =====================================================
 
-const API = axios.create({
- baseURL: "http://192.168.1.7:5000/api",
+// const API = axios.create({
+//  baseURL: "http://192.168.1.7:5000/api",
 
-  // Large video upload ke liye timeout disabled
-  timeout: 0,
+//   // Large video upload ke liye timeout disabled
+//   timeout: 0,
+// });
+const API = axios.create({
+  baseURL: "https://anar-o7e8.onrender.com/api",
 });
 
 // =====================================================
